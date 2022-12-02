@@ -1,0 +1,18 @@
+. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Variables
+    En javascript se distinguen 5 tipos de variables: de tipo texto (string), número, booleanas , objetos y funciones.
+	* Strings
+    Las Strings se utilizan para representar datos textuales por ejemplo nombres; siempre van entre comillas para que el interprete las reconozca
+	* Funciones (argumentos, `return`)
+    Son un conjunto de instrucciones que realiza una tarea o calcula un valor siempre deben tener una entrada y una salida. Los argumentos son 
+    las variables que necesitan las funciones y éstas le brindan la info necesario para que la funcion pueda ejecutarse adecuandamente.
+	* Declaraciones `if`
+    Se componen de valores, operadores, expresiones, palabras claves y comentarios
+    Las declaraciones se ejecutan una por una en el mismo orden en las que fueron escritas y se agrega un ; cuando se quiere terminar o 
+    pasar a escribir otra declaración.
+    Para el caso del if marca un bloque de declaraciones a ser ejecutadas, mientras una condición sea verdadera.
+	* Valores booleanos (`true`, `false`)
+     Existen dos posibles valores true o false y sirven para evaluar ciertos datos y llegar a conclusiones de si el dato en verdadero (true)
+      se ejecuta x comando, de ser falso (false) no hacer nada o ejecutar otro comando diferente.
+      
