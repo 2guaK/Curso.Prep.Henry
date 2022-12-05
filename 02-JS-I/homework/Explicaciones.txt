@@ -14,5 +14,4 @@
     Para el caso del if marca un bloque de declaraciones a ser ejecutadas, mientras una condición sea verdadera.
 	* Valores booleanos (`true`, `false`)
      Existen dos posibles valores true o false y sirven para evaluar ciertos datos y llegar a conclusiones de si el dato en verdadero (true)
-      se ejecuta x comando, de ser falso (false) no hacer nada o ejecutar otro comando diferente.
-      
+    se ejecuta x comando, de ser falso (false) no hacer nada o ejecutar otro comando diferente.
