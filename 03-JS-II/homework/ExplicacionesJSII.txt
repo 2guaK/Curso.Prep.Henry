@@ -1,0 +1,19 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`
+* `&&`, `||`, `!`
+
+"For" es un bucle que consiste en tres expresiones encerradas por parentesis y separadas entre si por ";", seguida de una sentencia. Se escribe asi; for (expresion inicial; condicion; expresion final)sentencia
+Ej: for (var i = 0 ; i < 10 ; i++ ) return "El número es de una cifra y positivo", entonces el bucle "for" comenzará en 0 por que i=0 y subira de 1 en 1 hasta llegar al 9 una vez que llegue al 10 la condición 
+no se complirá y cerrará el bucle.
+
+"&&" es un operador lógico y quiere decir "y", se usa para trabajar con booleanos (true o false) o si se cumple la condicion tambien puede devolver una "string" y sirve para agregar mas condiociones a una sentencia.
+Ej: if (num1 > num2 && num1 > num3 && num1 > 0) return "Número 1 es mayor y positivo")
+
+"||" es otro operador lógico y éste quiere decir "o" y a diferencia de && que agrega condiciones a la sentencia ésta puede ser una "o" la otra
+ej: var a = 10 
+        b = 5
+        if (a < 12 || b > 12) return true , este caso va a devolver true por que una de las condiciones se cumple si ninguna de las es true, entonces devuelve false.
+
+"!" es otro operador lógico y quiere decir "NOT o no" si lo ponemos delante de alguna expresion nos devolvera lo opuesto a la expresion.
+Ej: !false = true (por que " no falso" es verdadero)
