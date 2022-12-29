@@ -1,0 +1,19 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Arrays
+    Los arrays o "arreglos" sirven para colocar o agrupar varios elementos en una misma variable. Estos elementos pueder ser strings, números y booleanos.
+    Cada elemento dentro del arreglo tiene un orden o una posición que siempre empieza en el 0.
+    Un ejemplo de definición de arreglo puede ser:
+    const arreglojuan =[0,1,2,3,4,5]
+    En este arreglo vemos que adentro contiene 6 elementos ordenados y para acceder a cada elemento,
+    sólo basta con invocar el numero de la posición entre corchetes [], para definir lo que se quiere agregar; o para que retorne el contenido de esa posición
+    Ej; arreglojuan [2] = "Soy un estudiante".
+    Hay diferentes tipos de comandos para agregar/quitar elementos tanto al principio como al final o en la posición que deseemos en los arrays.
+    Ej: arreglojuan.push("trato de entender"), 
+    esto creará un lugar más en nuestro array (arreglojuan) y ahora tiene 7 elementos; el cuál arreglojuan [6] = "trato de entender"
+    Si queremos sacar el ultimos elemento de nuestro array,
+    Ej; arreglojuan.pop(),
+    Esto elimina el último elemento de nuestro array, entonces, volvemos a tener un array con 6 elementos
+    Otros comandos son, el .unshift y .shift que nos permite agregar y sacar el primer elementos del array respectivamente.
+
+    
